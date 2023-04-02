@@ -1,0 +1,24 @@
+.navbar-brand {
+  font-family: cursive;
+}
+.circle {
+  color: yellow;
+  border-radius: 50%;
+  font-size: 70px;
+}
+
+.col {
+  color: #000;
+}
+.example-container {
+  @include make-container();
+
+  width: 10px;
+}
+
+@media (max-width: 1028px) {
+  body {
+    font-size: 5px;
+    text-align: center;
+  }
+}
